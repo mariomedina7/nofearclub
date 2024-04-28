@@ -328,6 +328,91 @@ footer .todo-redes .icons-footer img{
     font-family: 'TextaAltMedium';
 }
 
+/* PAGES TRAINERS */
+
+.nfc-team-contenedor .nfc-team-header h2{
+    font-family: 'TolyerNo3-Medium';
+}
+
+.nfc-team-contenedor .nfc-team-header p{
+    font-family: 'TextaAltMedium';
+}
+
+.bd-placeholder-img {
+    font-size: 1.125rem;
+    text-anchor: middle;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    user-select: none;
+}
+
+/* PAGE SEDES */
+
+.sede-main-contenedor{
+    background-image: url(../img/fondogymnfc.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    height: 250px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.sede-main-contenedor h2{
+    font-family: 'TolyerNo3-Medium';
+    font-size: 65px;
+}
+
+.contenedor-sedes img{
+    width: 80%;
+    height: 300px;
+    border-radius: 21px 21px 0 0;
+}
+
+.contenedor-sedes h2{
+    font-family: 'TolyerNo3-Medium';
+}
+
+.contenedor-sedes p{
+    font-family: 'TextaAltMedium';
+}
+
+.product-device {
+    position: absolute;
+    right: 10%;
+    bottom: -30%;
+    width: 300px;
+    height: 540px;
+    background-color: #333;
+    border-radius: 21px;
+    transform: rotate(30deg);
+  }
+  
+  .product-device::before {
+    position: absolute;
+    top: 10%;
+    right: 10px;
+    bottom: 10%;
+    left: 10px;
+    content: "";
+    background-color: rgba(255, 255, 255, .1);
+    border-radius: 5px;
+  }
+  
+  .product-device-2 {
+    top: -25%;
+    right: auto;
+    bottom: 0;
+    left: 5%;
+    background-color: #e5e5e5;
+  }
+
+  .flex-equal > * {
+    flex: 1;
+  }
+
 /* MEDIAS QUERIES */
 
 @media screen and (max-width: 1300px) {
@@ -354,6 +439,12 @@ footer .todo-redes .icons-footer img{
     .experiencia-seccion div img{
         width: 800px;
         height: 400px;
+    }
+}
+
+@media screen and (max-width: 991px) {
+    .precio-contenedor{
+        height: 1200px;
     }
 }
 
@@ -395,6 +486,22 @@ footer .todo-redes .icons-footer img{
 
     .div-bienvenida{
         text-align: center;
+    }
+}
+
+@media (min-width: 768px) {
+    .bd-placeholder-img-lg {
+      font-size: 3.5rem;
+    }
+
+    .flex-md-equal > * {
+        flex: 1;
+      }
+}
+
+@media screen and (max-width: 767px) {
+    .precio-contenedor{
+        height: 1800px;
     }
 }
 
@@ -445,6 +552,12 @@ footer .todo-redes .icons-footer img{
 
     .our-services-section{
         height: 2300px;
+    }
+}
+
+@media screen and (max-width: 436px) {
+    .precio-contenedor{
+        height: 1850px;
     }
 }
 
@@ -552,6 +665,46 @@ footer .todo-redes .icons-footer img{
 
     footer .todo-redes p{
         font-size: 12px;
+    }
+}
+
+@media screen and (max-width: 399px) {
+    .precio-contenedor{
+        height: 1900px;
+    } 
+}
+
+@media screen and (max-width: 381px) {
+    .precio-contenedor{
+        height: 1935px;
+    }  
+}
+
+@media screen and (max-width: 370px){
+    .sede-main-contenedor{
+        height: 250px;
+    }
+    
+    .sede-main-contenedor h2{
+        font-size: 55px;
+    }
+}
+
+@media screen and (max-width: 366px) {
+    .precio-contenedor{
+        height: 1980px;
+    }  
+}
+
+@media screen and (max-width: 361px) {
+    .precio-contenedor{
+        height: 2000px;
+    }   
+}
+
+@media screen and (max-width: 359px) {
+    .precio-contenedor{
+        height: 2010px;
     }
 }
     

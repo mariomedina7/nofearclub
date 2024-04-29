@@ -1,0 +1,446 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; }
+
+@font-face {
+  font-family: 'TolyerNo3-Medium';
+  src: url("../fonts/TolyerNo3-Medium.ttf") format("truetype"); }
+
+@font-face {
+  font-family: 'TextaAltMedium';
+  src: url("../fonts/TextaAltMedium.ttf") format("truetype"); }
+
+.welcome-section, .sede-main-contenedor {
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  display: flex;
+  justify-content: center;
+  align-items: center; }
+
+header {
+  background-color: #000000 !important;
+  padding: 10px;
+  position: sticky;
+  top: 0px;
+  z-index: 1; }
+  header a img {
+    width: 80px;
+    height: 80px;
+    margin-right: 5px; }
+  header ul li {
+    margin: 10px; }
+    header ul li a {
+      color: white !important;
+      font-family: "Advent Pro", sans-serif; }
+
+.welcome-section {
+  background-image: url(../img/boxingareanfc.jpg);
+  height: 450px; }
+  .welcome-section .div-bienvenida h2 {
+    color: white;
+    font-family: 'TolyerNo3-Medium';
+    font-size: 60px; }
+  .welcome-section .div-bienvenida p {
+    color: white;
+    font-family: 'TextaAltMedium';
+    font-size: 20px; }
+
+.about-us-section h2 {
+  color: #000000;
+  font-family: 'TolyerNo3-Medium';
+  font-size: 50px; }
+
+.about-us-section p {
+  color: #2e2e2e;
+  font-family: 'TextaAltMedium';
+  font-size: 25px; }
+
+.our-services-section {
+  background-color: #000000;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  height: 1000px; }
+  .our-services-section .our-services-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center; }
+    .our-services-section .our-services-container div {
+      width: 1000px;
+      text-align: center; }
+    .our-services-section .our-services-container h2 {
+      color: white;
+      font-family: 'TolyerNo3-Medium';
+      font-size: 50px;
+      margin-bottom: 15px; }
+    .our-services-section .our-services-container p {
+      color: white;
+      font-family: 'TextaAltMedium';
+      font-size: 25px; }
+  .our-services-section .servicios-contenedor {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap; }
+    .our-services-section .servicios-contenedor div {
+      text-align: center; }
+      .our-services-section .servicios-contenedor div img {
+        border: 2px #a89736 solid;
+        border-radius: 20px;
+        width: 400px;
+        height: 550px;
+        margin: 10px; }
+      .our-services-section .servicios-contenedor div h2 {
+        color: white;
+        font-family: 'TolyerNo3-Medium';
+        font-size: 30px; }
+
+.experiencia-seccion div img {
+  border-radius: 4%;
+  box-shadow: 0px 0px 23px -1px rgba(0, 0, 0, 0.51);
+  -webkit-box-shadow: 0px 0px 23px -1px rgba(0, 0, 0, 0.51);
+  -moz-box-shadow: 0px 0px 23px -1px rgba(0, 0, 0, 0.51); }
+
+.experiencia-seccion .experiencie-container h2 {
+  color: #000000;
+  font-family: 'TolyerNo3-Medium'; }
+
+.experiencia-seccion .experiencie-container p {
+  color: #2e2e2e;
+  font-family: 'TextaAltMedium'; }
+
+.seccion-nosotros {
+  height: 700px; }
+  .seccion-nosotros .contenedor-grid-nosotros {
+    display: grid;
+    width: 80%;
+    margin: 50px auto;
+    grid-auto-rows: 300px;
+    grid-template-columns: repeat(3, 1fr);
+    row-gap: 50px; }
+    .seccion-nosotros .contenedor-grid-nosotros h2 {
+      font-family: 'TolyerNo3-Medium'; }
+    .seccion-nosotros .contenedor-grid-nosotros p {
+      font-family: 'TextaAltMedium'; }
+    .seccion-nosotros .contenedor-grid-nosotros i {
+      font-size: 100px;
+      color: #000000; }
+    .seccion-nosotros .contenedor-grid-nosotros .parrafo-about {
+      grid-column: span 2;
+      align-content: center;
+      margin: 20px; }
+    .seccion-nosotros .contenedor-grid-nosotros .vision-contenedor, .seccion-nosotros .contenedor-grid-nosotros .mision-contenedor, .seccion-nosotros .contenedor-grid-nosotros .objetivo-contenedor {
+      text-align: center; }
+    .seccion-nosotros .contenedor-grid-nosotros .nosotros-img {
+      margin: 15px; }
+      .seccion-nosotros .contenedor-grid-nosotros .nosotros-img img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        border-radius: 4%;
+        box-shadow: 0px 0px 23px -1px rgba(0, 0, 0, 0.51);
+        -webkit-box-shadow: 0px 0px 23px -1px rgba(0, 0, 0, 0.51);
+        -moz-box-shadow: 0px 0px 23px -1px rgba(0, 0, 0, 0.51); }
+
+.precio-contenedor {
+  height: 1000px; }
+  .precio-contenedor .pricing-header {
+    max-width: 900px; }
+    .precio-contenedor .pricing-header h2 {
+      font-family: 'TolyerNo3-Medium'; }
+    .precio-contenedor .pricing-header p {
+      font-family: 'TextaAltMedium'; }
+  .precio-contenedor .precio-cards h4 {
+    font-family: 'TextaAltMedium'; }
+  .precio-contenedor .compara-planes {
+    font-family: 'TolyerNo3-Medium'; }
+  .precio-contenedor .tabla-compare table thead tr th, .precio-contenedor .tabla-compare table tbody tr th {
+    font-family: 'TextaAltMedium'; }
+
+.nfc-team-contenedor .nfc-team-header h2 {
+  font-family: 'TolyerNo3-Medium'; }
+
+.nfc-team-contenedor .nfc-team-header p {
+  font-family: 'TextaAltMedium'; }
+
+.bd-placeholder-img {
+  font-size: 1.125rem;
+  text-anchor: middle;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  user-select: none; }
+
+.sede-main-contenedor {
+  background-image: url(../img/fondogymnfc.jpg);
+  height: 250px; }
+  .sede-main-contenedor h2 {
+    font-family: 'TolyerNo3-Medium';
+    font-size: 65px; }
+
+.contenedor-sedes img {
+  width: 80%;
+  height: 300px;
+  border-radius: 21px 21px 0 0; }
+
+.contenedor-sedes h2 {
+  font-family: 'TolyerNo3-Medium'; }
+
+.contenedor-sedes p {
+  font-family: 'TextaAltMedium'; }
+
+.product-device {
+  position: absolute;
+  right: 10%;
+  bottom: -30%;
+  width: 300px;
+  height: 540px;
+  background-color: #333;
+  border-radius: 21px;
+  transform: rotate(30deg); }
+  .product-device::before {
+    position: absolute;
+    top: 10%;
+    right: 10px;
+    bottom: 10%;
+    left: 10px;
+    content: "";
+    background-color: #333;
+    border-radius: 5px; }
+
+.product-device-2 {
+  top: -25%;
+  right: auto;
+  bottom: 0;
+  left: 5%;
+  background-color: #e5e5e5; }
+
+.flex-equal > * {
+  flex: 1; }
+
+footer {
+  background-color: #000000;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+  height: 450px; }
+  footer .logo-footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; }
+    footer .logo-footer img {
+      width: 100px;
+      height: 100px; }
+    footer .logo-footer h2 {
+      font-family: 'TolyerNo3-Medium';
+      font-size: 45px;
+      color: white; }
+  footer .lista-footer ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    padding: 0; }
+    footer .lista-footer ul li {
+      margin: 15px; }
+    footer .lista-footer ul a {
+      text-decoration: none;
+      color: white;
+      font-family: "Advent Pro", sans-serif;
+      font-size: 20px; }
+  footer .todo-redes {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; }
+    footer .todo-redes p {
+      color: white;
+      font-family: "Advent Pro";
+      font-size: 15px; }
+    footer .todo-redes .redes-footer p {
+      margin-bottom: 10px; }
+    footer .todo-redes .icons-footer img {
+      width: 40px;
+      height: 40px;
+      margin-bottom: 10px;
+      background-color: white;
+      border-radius: 150px;
+      border: 5px solid;
+      border-color: #000000; }
+
+@media screen and (max-width: 1300px) {
+  .our-services-section {
+    height: 1500px; } }
+
+@media screen and (max-width: 1136px) {
+  header a img {
+    width: 60px;
+    height: 60px;
+    margin: 10px 0 0 10px; } }
+
+@media screen and (max-width: 1000px) {
+  .our-services-section .our-services-container div {
+    width: 900px; } }
+
+@media screen and (max-width: 992px) {
+  .experiencia-seccion div img {
+    width: 800px;
+    height: 400px; } }
+
+@media screen and (max-width: 991px) {
+  .precio-contenedor {
+    height: 1200px; } }
+
+@media screen and (max-width: 980px) {
+  .seccion-nosotros {
+    height: 800px; } }
+
+@media screen and (max-width: 900px) {
+  .our-services-section {
+    height: 1700px; }
+    .our-services-section .our-services-container div {
+      width: 800px; } }
+
+@media screen and (max-width: 840px) {
+  .our-services-section {
+    height: 2100px; }
+  .experiencia-seccion div img {
+    width: 800px;
+    height: 400px; } }
+
+@media screen and (max-width: 800px) {
+  .our-services-section {
+    height: 2200px; }
+    .our-services-section .our-services-container div {
+      width: 700px; }
+  .div-bienvenida {
+    text-align: center; } }
+
+@media (min-width: 768px) {
+  .bd-placeholder-img-lg {
+    font-size: 3.5rem; }
+  .flex-md-equal > * {
+    flex: 1; } }
+
+@media screen and (max-width: 767px) {
+  .precio-contenedor {
+    height: 1800px; } }
+
+@media screen and (max-width: 700px) {
+  .our-services-section {
+    height: 2200px; }
+    .our-services-section .our-services-container div {
+      width: 600px; } }
+
+@media screen and (max-width: 670px) {
+  .seccion-nosotros {
+    height: 1550px; }
+    .seccion-nosotros .contenedor-grid-nosotros {
+      grid-template-columns: repeat(1, 3fr);
+      row-gap: 10px; }
+      .seccion-nosotros .contenedor-grid-nosotros .parrafo-about {
+        grid-column: span 1; }
+  footer .lista-footer ul {
+    padding: 0;
+    margin: 0; } }
+
+@media screen and (max-width: 601px) {
+  .our-services-section {
+    height: 2200px; }
+    .our-services-section .our-services-container div {
+      width: 500px; } }
+
+@media screen and (max-width: 546px) {
+  .our-services-section {
+    height: 2300px; }
+    .our-services-section .our-services-container div {
+      width: 400px; } }
+
+@media screen and (max-width: 436px) {
+  .precio-contenedor {
+    height: 1850px; } }
+
+@media screen and (max-width: 450px) {
+  footer {
+    height: 550px; }
+    footer .logo-footer img {
+      display: none; }
+    footer .lista-footer ul {
+      flex-direction: column;
+      padding: 0;
+      margin: 0; }
+      footer .lista-footer ul li {
+        margin: 10px; }
+      footer .lista-footer ul a {
+        font-size: 20px; } }
+
+@media screen and (max-width: 420px) {
+  .welcome-section .div-bienvenida h2 {
+    font-size: 40px; }
+  .welcome-section .div-bienvenida p, .welcome-section .div-bienvenida button {
+    font-size: 15px; }
+  .about-us-section div h2 {
+    font-size: 30px; }
+  .about-us-section div p {
+    font-size: 20px; }
+  .about-us-section div button {
+    font-size: 15px; }
+  .our-services-section {
+    height: 1900px; }
+    .our-services-section .our-services-container div {
+      width: 350px; }
+    .our-services-section .our-services-container h2 {
+      font-size: 35px; }
+    .our-services-section .our-services-container p {
+      font-size: 20px; }
+    .our-services-section .servicios-contenedor div img {
+      width: 300px;
+      height: 450px; } }
+
+@media screen and (max-width: 400px) {
+  .contenedor-grid-nosotros {
+    grid-template-columns: repeat(1, 3fr);
+    row-gap: 10px;
+    grid-auto-rows: 300px; }
+    .contenedor-grid-nosotros h2, .contenedor-grid-nosotros p {
+      font-size: 15px; }
+  footer {
+    height: 400px; }
+    footer .logo-footer h2 {
+      font-size: 35px; }
+    footer .lista-footer ul li {
+      margin: 10px; }
+    footer .lista-footer ul a {
+      font-size: 15px; }
+    footer .todo-redes p {
+      font-size: 12px; } }
+
+@media screen and (max-width: 399px) {
+  .precio-contenedor {
+    height: 1900px; } }
+
+@media screen and (max-width: 381px) {
+  .precio-contenedor {
+    height: 1935px; } }
+
+@media screen and (max-width: 370px) {
+  .sede-main-contenedor {
+    height: 250px; }
+    .sede-main-contenedor h2 {
+      font-size: 55px; } }
+
+@media screen and (max-width: 366px) {
+  .precio-contenedor {
+    height: 1980px; } }
+
+@media screen and (max-width: 361px) {
+  .precio-contenedor {
+    height: 2000px; } }
+
+@media screen and (max-width: 359px) {
+  .precio-contenedor {
+    height: 2010px; } }

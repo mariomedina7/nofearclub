@@ -1,0 +1,60 @@
+footer {
+    background-color: $color-principal;
+    @include flex(flex, column, space-evenly, center);
+    height: 450px;
+  
+    .logo-footer {
+        @include flex(flex, column, center, center);  
+      img {
+        width: 100px;
+        height: 100px;
+      }
+  
+      h2 {
+        font-family: 'TolyerNo3-Medium';
+        font-size: nth($font-size, 5);
+        color: $color-secundario;
+      }
+    }
+  
+    .lista-footer ul {
+      list-style: none;
+      display: flex;
+      justify-content: center;
+      padding: 0;
+  
+      li {
+        margin: 15px;
+      }
+  
+      a {
+        text-decoration: none;
+        color: $color-secundario;
+        font-family: "Advent Pro", sans-serif;
+        font-size: nth($font-size, 2);
+      }
+    }
+  
+    .todo-redes {
+        @include flex(flex, column, center, center); 
+      p {
+        color: $color-secundario;
+        font-family: "Advent Pro";
+        font-size: nth($font-size, 1);
+      }
+  
+      .redes-footer p {
+        margin-bottom: 10px;
+      }
+  
+      .icons-footer img {
+        width: 40px;
+        height: 40px;
+        margin-bottom: 10px;
+        background-color: $color-secundario;
+        border-radius: 150px;
+        border: 5px solid;
+        border-color: $color-principal;
+      }
+    }
+}

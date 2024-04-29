@@ -1,0 +1,22 @@
+header {
+    background-color: $color-principal !important;
+    padding: 10px;
+    position: sticky;
+    top: 0px;
+    z-index: 1;
+  
+    a img {
+      width: 80px;
+      height: 80px;
+      margin-right: 5px;
+    }
+  
+    ul li {
+      margin: 10px;
+  
+      a {
+        color: $color-secundario !important;
+        font-family: "Advent Pro", sans-serif;
+      }
+    }
+}

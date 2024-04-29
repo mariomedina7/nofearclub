@@ -1,0 +1,263 @@
+.welcome-section {
+    background-image: url(../img/boxingareanfc.jpg);
+    height: 450px;
+    @extend %flex-center-background;
+  
+    .div-bienvenida {
+      h2 {
+        color: $color-secundario;
+        font-family: 'TolyerNo3-Medium';
+        font-size: nth($font-size, 7);
+      }
+  
+      p {
+        color: $color-secundario;
+        font-family: 'TextaAltMedium';
+        font-size: nth($font-size, 2);
+      }
+    }
+}
+
+.about-us-section {
+    h2 {
+      color: $color-principal;
+      font-family: 'TolyerNo3-Medium';
+      font-size: nth($font-size, 6);
+    }
+  
+    p {
+      color: $color-terciario;
+      font-family: 'TextaAltMedium';
+      font-size: nth($font-size, 3);
+    }
+}
+
+.our-services-section {
+    background-color: $color-principal;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    height: 1000px;
+  
+    .our-services-container {
+        @include flex(flex, column, flex-start, center);
+      div {
+        width: 1000px;
+        text-align: center;
+      }
+  
+      h2 {
+        color: $color-secundario;
+        font-family: 'TolyerNo3-Medium';
+        font-size: nth($font-size, 6);
+        margin-bottom: 15px;
+      }
+  
+      p {
+        color: $color-secundario;
+        font-family: 'TextaAltMedium';
+        font-size: nth($font-size, 3);
+      }
+    }
+  
+    .servicios-contenedor {
+     @include flex-wrap(flex, space-evenly, center, wrap);
+      div {
+        text-align: center;
+  
+        img {
+          border: 2px $color-cuaternario solid;
+          border-radius: 20px;
+          width: 400px;
+          height: 550px;
+          margin: 10px;
+        }
+  
+        h2 {
+          color: $color-secundario;
+          font-family: 'TolyerNo3-Medium';
+          font-size: nth($font-size, 4);
+        }
+      }
+    }
+}
+
+.experiencia-seccion {
+    div img {
+      border-radius: 4%;
+      box-shadow: 0px 0px 23px -1px rgba(0, 0, 0, 0.51);
+      -webkit-box-shadow: 0px 0px 23px -1px rgba(0, 0, 0, 0.51);
+      -moz-box-shadow: 0px 0px 23px -1px rgba(0, 0, 0, 0.51);
+    }
+  
+    .experiencie-container {
+      h2 {
+        color: $color-principal;
+        font-family: 'TolyerNo3-Medium';
+      }
+  
+      p {
+        color: $color-terciario;
+        font-family: 'TextaAltMedium';
+      }
+    }
+}
+
+.seccion-nosotros {
+    height: 700px;
+  
+    .contenedor-grid-nosotros {
+      display: grid;
+      width: 80%;
+      margin: 50px auto;
+      grid-auto-rows: 300px;
+      grid-template-columns: repeat(3, 1fr);
+      row-gap: 50px;
+  
+      h2 {
+        font-family: 'TolyerNo3-Medium';
+      }
+  
+      p {
+        font-family: 'TextaAltMedium';
+      }
+  
+      i {
+        font-size: nth($font-size, 9);
+        color: $color-principal;
+      }
+  
+      .parrafo-about {
+        grid-column: span 2;
+        align-content: center;
+        margin: 20px;
+      }
+  
+      .vision-contenedor, .mision-contenedor, .objetivo-contenedor {
+        text-align: center;
+      }
+  
+      .nosotros-img {
+        margin: 15px;
+  
+        img {
+          width: 100%;
+          height: 100%;
+          object-fit: cover;
+          border-radius: 4%;
+          box-shadow: 0px 0px 23px -1px rgba(0, 0, 0, 0.51);
+          -webkit-box-shadow: 0px 0px 23px -1px rgba(0, 0, 0, 0.51);
+          -moz-box-shadow: 0px 0px 23px -1px rgba(0, 0, 0, 0.51);
+        }
+      }
+    }
+}
+
+.precio-contenedor {
+    height: 1000px;
+  
+    .pricing-header {
+      max-width: 900px;
+  
+      h2 {
+        font-family: 'TolyerNo3-Medium';
+      }
+  
+      p {
+        font-family: 'TextaAltMedium';
+      }
+    }
+  
+    .precio-cards h4 {
+      font-family: 'TextaAltMedium';
+    }
+  
+    .compara-planes {
+      font-family: 'TolyerNo3-Medium';
+    }
+  
+    .tabla-compare table {
+      thead tr th, tbody tr th {
+        font-family: 'TextaAltMedium';
+      }
+    }
+}
+
+.nfc-team-contenedor .nfc-team-header {
+    h2 {
+      font-family: 'TolyerNo3-Medium';
+    }
+  
+    p {
+      font-family: 'TextaAltMedium';
+    }
+  }
+  
+  .bd-placeholder-img {
+    font-size: 1.125rem;
+    text-anchor: middle;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    user-select: none;
+}
+
+.sede-main-contenedor {
+    background-image: url(../img/fondogymnfc.jpg);
+    height: 250px;
+    @extend %flex-center-background;
+  
+    h2 {
+      font-family: 'TolyerNo3-Medium';
+      font-size: nth($font-size, 8);
+    }
+  }
+  
+.contenedor-sedes {
+    img {
+      width: 80%;
+      height: 300px;
+      border-radius: 21px 21px 0 0;
+    }
+  
+    h2 {
+      font-family: 'TolyerNo3-Medium';
+    }
+  
+    p {
+      font-family: 'TextaAltMedium';
+    }
+}
+  
+.product-device {
+    position: absolute;
+    right: 10%;
+    bottom: -30%;
+    width: 300px;
+    height: 540px;
+    background-color: $color-dark-gray;
+    border-radius: 21px;
+    transform: rotate(30deg);
+  
+    &::before {
+      position: absolute;
+      top: 10%;
+      right: 10px;
+      bottom: 10%;
+      left: 10px;
+      content: "";
+      background-color: $color-dark-gray;
+      border-radius: 5px;
+    }
+}
+  
+.product-device-2 {
+    top: -25%;
+    right: auto;
+    bottom: 0;
+    left: 5%;
+    background-color: $color-white-smooth;
+}
+  
+.flex-equal > * {
+    flex: 1;
+}
